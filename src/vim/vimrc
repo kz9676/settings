@@ -50,7 +50,7 @@ Bundle 'majutsushi/tagbar'
 " Code and files fuzzy finder
 Bundle 'kien/ctrlp.vim'
 " Extension to ctrlp, for fuzzy command finder
-Bundle 'fisadev/vim-ctrlp-cmdpalette'
+Bundle 'dev/vim-ctrlp-cmdpalette'
 " Zen coding
 Bundle 'mattn/emmet-vim'
 " Git integration
@@ -60,12 +60,10 @@ Bundle 'kien/tabman.vim'
 " Airline
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
-" Terminal Vim with 256 colors colorscheme
-Bundle 'fisadev/fisa-vim-colorscheme'
 " Consoles as buffers
 Bundle 'rosenfeld/conque-term'
 " Pending tasks list
-Bundle 'fisadev/FixedTaskList.vim'
+Bundle 'dev/FixedTaskList.vim'
 " Surround
 Bundle 'tpope/vim-surround'
 " Autoclose
@@ -85,9 +83,9 @@ Bundle 'garbas/vim-snipmate'
 " Git/mercurial/others diff icons on the side of the file lines
 Bundle 'mhinz/vim-signify'
 " Automatically sort python imports
-Bundle 'fisadev/vim-isort'
+Bundle 'dev/vim-isort'
 " Drag visual blocks arround
-Bundle 'fisadev/dragvisuals.vim'
+Bundle 'dev/dragvisuals.vim'
 " Window chooser
 Bundle 't9md/vim-choosewin'
 " Python and other languages code checker
@@ -127,8 +125,6 @@ Bundle 'myusuf3/numbers.vim'
 Bundle 'IndexedSearch'
 " XML/HTML tags navigation
 Bundle 'matchit.zip'
-" Gvim colorscheme
-Bundle 'Wombat'
 " Yank history navigation
 Bundle 'YankRing.vim'
 " Bash support 
@@ -241,18 +237,10 @@ nmap ,wr :RecurGrepFast <cword><CR>
 " use 256 colors when possible
 if &term =~? 'mlterm\|xterm\|xterm-256\|screen-256'
     let &t_Co = 256
-    colorscheme peaksea
+    colorscheme industry 
 else
-    colorscheme peaksea
+    colorscheme industry 
 endif
-
-" colors for gvim
-if has('gui_running')
-    colorscheme peaksea
-endif
-
-" active color scheme
-colorscheme peaksea
 
 " when scrolling, keep cursor 3 lines away from screen border
 set scrolloff=3
@@ -480,7 +468,7 @@ let g:choosewin_overlay_enable = 1
 " Airline --------------------------------------------------------------------
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'bubblegum'
+let g:airline_theme = 'dark'
 let g:airline#extensions#whitespace#enabled = 0
 
 " to use fancy symbols for airline, uncomment the following lines and use a
