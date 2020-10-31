@@ -56,13 +56,13 @@ SYS.ETC     = $(SYS.DIR.ETC)/$(PRJ).conf
 SYS.DOC     = $(SYS.DIR.ETC)/$(PRJ).txt
 
 setup:
-	@if [ ! -d $(PRJ.DIR.INC) ]; then mkdir -p $(PRJ.DIR.INC); fi
-	@if [ ! -d $(PRJ.DIR.SRC) ]; then mkdir -p $(PRJ.DIR.SRC); fi
-	@if [ ! -d $(PRJ.DIR.BIN) ]; then mkdir -p $(PRJ.DIR.BIN); fi
-	@if [ ! -d $(PRJ.DIR.LIB) ]; then mkdir -p $(PRJ.DIR.LIB); fi
-	@if [ ! -d $(PRJ.DIR.ETC) ]; then mkdir -p $(PRJ.DIR.ETC); fi
-	@if [ ! -d $(PRJ.DIR.DOC) ]; then mkdir -p $(PRJ.DIR.DOC); fi
-	@if [ ! -d $(PRJ.DIR.LOG) ]; then mkdir -p $(PRJ.DIR.LOG); fi
+	@if [ ! -d $(PRJ.DIR.INC) ]; then mkdir -pv $(PRJ.DIR.INC); fi
+	@if [ ! -d $(PRJ.DIR.SRC) ]; then mkdir -pv $(PRJ.DIR.SRC); fi
+	@if [ ! -d $(PRJ.DIR.BIN) ]; then mkdir -pv $(PRJ.DIR.BIN); fi
+	@if [ ! -d $(PRJ.DIR.LIB) ]; then mkdir -pv $(PRJ.DIR.LIB); fi
+	@if [ ! -d $(PRJ.DIR.ETC) ]; then mkdir -pv $(PRJ.DIR.ETC); fi
+	@if [ ! -d $(PRJ.DIR.DOC) ]; then mkdir -pv $(PRJ.DIR.DOC); fi
+	@if [ ! -d $(PRJ.DIR.LOG) ]; then mkdir -pv $(PRJ.DIR.LOG); fi
 
 build: setup
 
