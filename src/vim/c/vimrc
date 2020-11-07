@@ -44,6 +44,9 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 " Tab list panel
 Bundle 'kien/tabman.vim'
+" Powerline
+Bundle 'powerline/powerline'
+Bundle 'powerline/powerline-fonts'
 " Airline
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
@@ -75,8 +78,6 @@ Bundle 'ntnn/vim-ctagser'
 Bundle 'ludovicchabant/vim-gutentags'
 "Go To Header plugin 
 Bundle 'Yohannfra/Vim-Goto-Header'
-" Clang autocompletion 
-Bundle 'xavierd/clang_complete'
 
 " ============================================================================
 " Vim settings and mappings
@@ -245,19 +246,7 @@ let g:choosewin_overlay_enable = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'dark'
 let g:airline#extensions#whitespace#enabled = 0
-
-" to use fancy symbols for airline, uncomment the following lines and use a
-" patched font (more info on the README.rst)
-if !exists('g:airline_symbols')
-   let g:airline_symbols = {}
-endif
-let g:airline_left_sep = '⮀'
-let g:airline_left_alt_sep = '⮁'
-let g:airline_right_sep = '⮂'
-let g:airline_right_alt_sep = '⮃'
-let g:airline_symbols.branch = '⭠'
-let g:airline_symbols.readonly = '⭤'
-let g:airline_symbols.linenr = '⭡'
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " CtrlP ----------------------------------------------------------------------
 
@@ -364,10 +353,6 @@ let g:gutentags_generate_on_missing = 1
 let g:gutentags_generate_on_write = 1
 let g:gutentags_generate_on_empty_buffer = 0
 set statusline+=%{gutentags#statusline()}
-
-" Clang-complete ------------------------------------------------------------ 
-
-let g:clang_library_path = '/usr/lib/x86_64-linux-gnu/libclang-7.so'
 
 " YouCompleteMe -------------------------------------------------------------
 
