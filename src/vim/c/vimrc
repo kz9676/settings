@@ -356,6 +356,7 @@ let g:NERDSpaceDelims = 1
 let g:NERDTrimTrailingWhitespace = 1
 
 " Gutentags ----------------------------------------------------------------- 
+
 let g:gutentags_add_default_project_roots = 0
 let g:gutentags_project_root = ['.git', 'Makefile', 'package.json']
 let g:gutentags_generate_on_new = 1
@@ -365,7 +366,13 @@ let g:gutentags_generate_on_empty_buffer = 0
 set statusline+=%{gutentags#statusline()}
 
 " Clang-complete ------------------------------------------------------------ 
+
 let g:clang_library_path = '/usr/lib/x86_64-linux-gnu/libclang-7.so'
+
+" YouCompleteMe -------------------------------------------------------------
+
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 1
 
 " Build key -----------------------------------------------------------------
 
