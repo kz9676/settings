@@ -44,6 +44,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 " Tab list panel
 Bundle 'kien/tabman.vim'
+" Diff two directories
+Bundle 'will133/vim-dirdiff'
 " Powerline
 Bundle 'powerline/powerline'
 Bundle 'powerline/powerline-fonts'
@@ -265,9 +267,6 @@ nmap ,f :CtrlPLine<CR>
 " recent files finder mapping
 nmap ,m :CtrlPMRUFiles<CR>
 
-" commands finder mapping
-nmap ,c :CtrlPCmdPalette<CR>
-
 " to be able to call CtrlP with default search text
 function! CtrlPWithSearchText(search_text, ctrlp_command_end)
     execute ':CtrlP' . a:ctrlp_command_end
@@ -358,6 +357,7 @@ set statusline+=%{gutentags#statusline()}
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 1
+let g:ycm_add_preview_to_completeopt = -1
 
 " Build key -----------------------------------------------------------------
 
