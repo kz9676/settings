@@ -122,4 +122,6 @@ fi
 
 export EDITOR=vim
 export BROWSER=w3m
+export MT4_HOME="$HOME/.wine/drive_c/Program Files (x86)/FXCM MetaTrader4"
+export MQL4_HOME="$HOME/.wine/drive_c/Program Files (x86)/FXCM MetaTrader4"
 

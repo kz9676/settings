@@ -14,6 +14,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+if [ -d "$HOME/Programs" ] ; then
+    PATH="$HOME/Programs:$PATH"
+fi
+
 if [ "$TERM" = "linux" ] ; then
     setfont $HOME/.local/share/fonts/ter-powerline-v22n.psf.gz
 fi
