@@ -1,0 +1,50 @@
+[28] DESCRIPTION -------------------------------------------------------------
+
+Custom configuration files.
+
+* Vim
+* Bash
+* Tmux
+* Lynx
+
+[29] VERSION -----------------------------------------------------------------
+
+0.0.0.1
+
+[30] AUTHORS -----------------------------------------------------------------
+
+Kostya Zolotarov <kostya.zolotarov@gmail.com>
+
+[31] FILES -------------------------------------------------------------------
+
+.
+|--  ./API
+|--  ./AUTHORS
+|--  ./BACKGROUND
+|--  ./bin
+|--  ./BUILD
+|--  ./CHANGELOG
+|--  ./DEFECTS
+|--  ./DEPENDENCIES
+|--  ./DESCRIPTION
+|--  ./DESIGN
+|--  ./doc
+|--  ./etc
+|--  ./EXAMPLES
+|--  ./FEATURES
+|--  ./FILES
+|--  ./include
+|--  ./INSTALL
+|--  ./lib
+|--  ./LICENSE
+|--  ./log
+|--  ./Makefile
+|--  ./REQUIREMENTS
+|--  ./SOURCES
+|--  ./src
+|--  ./tags
+|--  ./TEST
+\--  ./VERSION
+
+27 files
+

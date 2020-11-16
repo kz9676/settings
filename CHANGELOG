@@ -1,0 +1,84 @@
+* f5408e1 
+|  2020-11-15 
+|  Kostya Zolotarov 
+|  Clipboard mapping (HEAD -> main, origin/main) 
+|   
+*   5cef73c 
+|\   2020-11-14 
+| |  Kostya Zolotarov 
+| |  Merge branch 'main' of github.com:kz9676/settings into main 
+| | 
+| * 0d4f89f 
+| |  2020-11-10 
+| |  Kostya Zolotarov 
+| |  Lynx settings 
+| | 
+| * 010b0ff 
+| |  2020-11-08 
+| |  Kostya Zolotarov 
+| |  YouCompleteMe logs and debug info 
+| | 
+* | 7c66bdf 
+|/   2020-11-14 
+|    Kostya Zolotarov 
+|    Vim build config 
+| 
+* e923b51 
+|  2020-11-07 
+|  Kostya Zolotarov 
+|  Improved Tmux settings 
+| 
+* 14e805b 
+|  2020-11-07 
+|  Kostya Zolotarov 
+|  Directory diff plugin 
+| 
+* d65ba79 
+|  2020-11-07 
+|  Kostya Zolotarov 
+|  Debian Bash settings 
+|   
+*   ee60944 
+|\   2020-11-07 
+| |  Kostya Zolotarov 
+| |  YouCompleteMe extra conf settings 
+| | 
+| * f3a8b10 
+| |  2020-11-04 
+| |  Kostya Zolotarov 
+| |  Removed conflicting clang-complete plugin. 
+| | 
+* | aa6e0e1 
+|/   2020-11-07 
+|    Kostya Zolotarov 
+|    Tmux settings 
+| 
+* a29986c 
+|  2020-11-03 
+|  Kostya Zolotarov 
+|  C, Javascript and Python vimrc variants. 
+| 
+* 82f22ee 
+|  2020-11-01 
+|  Kostya Zolotarov 
+|  Vim C support 
+| 
+* c7462bf 
+|  2020-10-31 
+|  Kostya Zolotarov 
+|  Removed unused color schemes. 
+| 
+* bbabd03 
+|  2020-10-31 
+|  Kostya Zolotarov 
+|  Vim settings 
+| 
+* 72b3c99 
+|  2020-10-31 
+|  Kostya Zolotarov 
+|  Verbose setup 
+| 
+* 39476d4 
+   2020-10-31 
+   Kostya Zolotarov 
+   Project makefile 
