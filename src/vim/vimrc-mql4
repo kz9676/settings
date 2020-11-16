@@ -116,6 +116,17 @@ set hlsearch
 " syntax highlight on
 syntax on
 
+" copy and paste
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
+
+" shortcut for clipboard registers
+noremap <leader>p "*p
+noremap <leader>y "+y
+noremap <leader>d "+d
+
 " tab navigation mappings
 map tn :tabn<CR>
 map tp :tabp<CR>
