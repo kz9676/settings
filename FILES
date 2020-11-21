@@ -20,6 +20,7 @@
 |--  ./LICENSE
 |--  ./log
 |--  ./Makefile
+|--  ./README
 |--  ./REQUIREMENTS
 |--  ./SOURCES
 |--  ./src
@@ -27,4 +28,4 @@
 |--  ./TEST
 \--  ./VERSION
 
-27 files
+28 files

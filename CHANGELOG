@@ -1,7 +1,17 @@
+* 75887e2 
+|  2020-11-21 
+|  Kostya Zolotarov 
+|  bashrc.debian Wine exports (HEAD -> main, origin/main) 
+| 
+* 599b30f 
+|  2020-11-15 
+|  Kostya Zolotarov 
+|  Bash aliases 
+| 
 * f5408e1 
 |  2020-11-15 
 |  Kostya Zolotarov 
-|  Clipboard mapping (HEAD -> main, origin/main) 
+|  Clipboard mapping 
 |   
 *   5cef73c 
 |\   2020-11-14 
