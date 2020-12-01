@@ -1,0 +1,26 @@
+# vim: filetype=muttrc
+
+unmailboxes *
+
+# IMAP SETTINGS
+set realname = "$USER_NAME"
+set from = "$USER_EMAIL"
+set imap_user = "$USER_EMAIL"
+set imap_pass = "$GMAIL_IMAP_PASSWORD" 
+set folder = 'imaps://imap.gmail.com:993'
+set spoolfile = '+INBOX'
+set record ='+[Gmail]/Sent Mail'
+set postponed ='+[Gmail]/Drafts'
+set trash = '+[Gmail]/Trash'
+set hostname = gmail.com
+set imap_keepalive = 300
+unset imap_passive
+
+# SMTP SETTINGS
+set smtp_url = 'smtps://kostya.zolotarov@gmail.com@smtp.gmail.com:465/'
+set smtp_pass = "$GMAIL_SMTP_PASSWORD" 
+set envelope_from
+set use_from = "yes"
+set mail_check = 6
+set move = no 
+
