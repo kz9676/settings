@@ -5,17 +5,12 @@
 #          FILE: configure.sh
 #         USAGE: bash ./configure.sh 
 #   DESCRIPTION: Custom Vim configuration. 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: Kostya Zolotarov (KZ), <kostya.zolotarov@gmail.com>
+#        AUTHOR: Kostya Zolotarov, <kostya.zolotarov@gmail.com>
 #       CREATED: 2020-11-14 15:56
-#      REVISION: ---
 #
 #===============================================================================
 
-author="Kostya Zolotarov (KZ), <kostya.zolotarov@gmail.com>"
+author="Kostya Zolotarov, <kostya.zolotarov@gmail.com>"
 
 ./configure                         \
     --with-features=huge            \

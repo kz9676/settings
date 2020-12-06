@@ -80,6 +80,10 @@ Bundle 'ludovicchabant/vim-gutentags'
 Bundle 'Yohannfra/Vim-Goto-Header'
 "MQL4
 Bundle 'vobornin/vim-mql4'
+" Distraction-free writing
+Bundle 'junegunn/limelight.vim'
+Bundle 'junegunn/goyo.vim'
+Bundle 'junegunn/seoul256.vim'
 
 " ============================================================================
 " Vim settings and mappings
@@ -95,14 +99,12 @@ filetype indent on
 
 " tabs and spaces handling
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
 
 " tab length exceptions on some file types
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " always show status bar
 set ls=2
@@ -171,8 +173,11 @@ else
     colorscheme industry 
 endif
 
-" when scrolling, keep cursor 3 lines away from screen border
-set scrolloff=3
+" auto indent
+set autoindent
+
+" when scrolling, keep cursor 0 lines away from screen border
+set scrolloff=0
 
 " better backup, swap and undos storage
 set directory=~/.vim/dirs/tmp     " directory to place swap files in
